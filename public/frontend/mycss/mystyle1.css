@@ -1,0 +1,371 @@
+.navbar-brand img {
+  width: 30%;
+}
+
+header .dropdown-content {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 68%;
+  background-color: #000000;
+  color: #ffffff;
+  width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  padding-bottom: 2%;
+}
+
+header .dropdown-content i {
+  font-size: 12px;
+}
+
+header .dropdown-content .dropdown-content-list-1 {
+  display: grid;
+  grid-template-columns: 30% 20% 10% 20% 20%;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+}
+
+header .dropdown-content .dropdown-content-list-1 h5 {
+  font-size: 14px;
+}
+
+header .dropdown-content .dropdown-content-list-1 img {
+  width: 80%;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+header .dropdown-content .drop-sub-total {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  text-align: center;
+  padding: 2%;
+}
+
+header .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+header .dropdown-content .view-cart {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+header .dropdown-content .view-cart button {
+  width: 80%;
+  text-align: center;
+  background-color: #ff1b18;
+  padding: 5px 10px;
+  outline: 0;
+  border: none;
+  border-radius: 5px;
+}
+
+header .dropdown-content .check-out {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+header .dropdown-content .check-out button {
+  width: 80%;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  outline: 0;
+  border: none;
+  border-radius: 5px;
+  color: #ff1b18;
+}
+
+/*Home*/
+.home .btn-design {
+  width: 217px;
+  height: 40px;
+  background: #ff1b18;
+  border-radius: 20px;
+  outline: 0;
+  border: none;
+}
+
+.home .btn-design:hover {
+  outline: 0;
+  border: none;
+}
+
+.home .btn-design :focus {
+  outline: 0;
+  border: none;
+}
+
+.home .btn-design :active {
+  outline: 0;
+  border: none;
+}
+
+.home .btn-design a {
+  font-size: 20px;
+  color: #ffffff !important;
+}
+
+.home .add-button button:focus {
+  outline: 0;
+  border: none;
+  color: #ffffff;
+}
+
+.home .add-button button a {
+  color: #ffffff;
+}
+
+.home .home-menu-section {
+  height: auto;
+  background-image: url(../myresources/menubackground.png);
+  text-align: center;
+}
+
+.home .home-menu-section h1 {
+  padding-top: 5%;
+}
+
+.home .home-menu-section .button-group {
+  padding-bottom: 5%;
+}
+
+.home .home-menu-section .item-list {
+  margin-left: 5%;
+}
+.home .home-menu-section .item {
+  position: relative;
+
+  width: 30%;
+
+  padding: 0px;
+  margin: 10px;
+}
+
+.home .home-menu-section .item .menu-img {
+  overflow: hidden;
+}
+
+.home .home-menu-section .item .menu-img::before {
+  content: "";
+  position: absolute;
+  background: #0000005b;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.4s all ease-in-out;
+}
+
+.home .home-menu-section .item:hover .menu-img::before {
+  opacity: 1;
+}
+
+.home .home-menu-section .item .menu-img::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.home .home-menu-section .item:hover .menu-img::after {
+  border-color: #ff1b18;
+}
+
+.home .home-menu-section .add-menu-button {
+  position: absolute;
+  bottom: 20%;
+  padding: 5%;
+}
+
+.home .home-menu-section .add-menu-button h2{
+  color: #ffffff;
+}
+.home .home-menu-section .add-menu-button p{
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.home .home-menu-section .add-menu-button button {
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: none;
+  outline: 0;
+  background-color: #ff1b18;
+  color: white;
+}
+
+.home .home-menu-section .add-menu-button {
+  display: none;
+}
+
+.home .home-menu-section .item:hover .add-menu-button {
+  display: block;
+}
+
+.home .button-group button {
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: none;
+  outline: 0;
+  background-color: #ff1b18;
+  color: white;
+}
+
+.home .menu-post .add-cart-button button {
+  position: absolute;
+  bottom: 20%;
+  right: 72%;
+  z-index: 3;
+  background-color: #ff1b18;
+  border-radius: 8px;
+  border: none;
+  outline: 0;
+  color: #ffffff;
+  padding: 8px 15px;
+  display: none;
+}
+
+section.popular-menu-section .menu-box .item .menu-post:hover .add-cart-button button{
+  display: block;
+}
+
+.home .menu-post .add-cart-button-right button {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+  z-index: 3;
+  background-color: #ff1b18;
+  border-radius: 8px;
+  border: none;
+  outline: 0;
+  color: #ffffff;
+  padding: 8px 15px;
+  display: none;
+}
+
+section.popular-menu-section .menu-box .item .menu-post:hover .add-cart-button-right button{
+  display: block;
+}
+
+
+.home .testimonial{
+  padding: 5% 0%;
+  background-color: #202E3D;
+}
+
+.home .testimonial .test-title{
+  text-align: center;
+}
+
+.home .testimonial .test-post .test-item{
+ height: 800px;
+}
+
+.home .testimonial .test-post {
+  padding: 5% 2%;
+  background-color:  #ff514e;
+  border-radius: 8px;
+  text-align: center;
+  margin: 5% 5%;
+}
+
+.home .testimonial .test-post q{
+ 
+  color: #ffffff;
+}
+
+.home .testimonial .test-circle img{
+  border:5px solid #ff1b18;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  position: relative;
+  left: 36%;
+  
+}
+
+
+/*menu*/
+.my-menu section.today-menu-section {
+  background-image: url(../myresources/menubackground.png);
+}
+
+.my-menu .navbar-default .navbar-nav > li > a {
+  font-weight: bold;
+}
+
+.my-menu .add-button button,
+.home .add-button button {
+  position: absolute;
+  bottom: 5%;
+  margin-top: 2%;
+  display: none;
+  width: 150px;
+  height: 40px;
+  background: #ff1b18;
+  border-radius: 0px;
+  border: none;
+}
+
+.my-menu .menu-box .item:hover .add-button button {
+  display: block;
+}
+
+.my-menu .add-button button:focus {
+  outline: 0;
+  border: none;
+  color: #ffffff;
+}
+
+.my-menu .add-button button a {
+  color: #ffffff;
+}
+
+.my-menu
+  section.today-menu-section
+  .menu-box
+  .item
+  .menu-post:hover
+  .add-button
+  button
+  a {
+  color: #ffffff;
+}
+
+@media (max-width: 380px) {
+  .my-menu .add-button button {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 18px;
+  }
+
+  .my-menu .add-button button a {
+    font-size: 12px;
+    color: #ffffff;
+  }
+
+  .my-menu .inner-menu h2 {
+    font-size: 15px !important;
+    margin-top: 30px;
+    padding: 0px !important;
+  }
+}
+
+/*cart*/
